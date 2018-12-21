@@ -6,14 +6,13 @@ print '<h3>Task 2 Final Result</h3>
 <pre>Napiši funkcijo, ki sprejme string in ga skrajša, v primeru da si v njem sledi več istih zaporednih znakov.
 Primer: čokooolada naj spremeni v čoko3lada.</pre>';
 
-$string = 'čokooolada';
-
+$string = 'čokooolada'; // string to be analyzed and modified
 
 //
 // Do not modify bellow this line
 //
 
-print '<p>Input: '.$string.'</p>
+print '<p>Input: ' . $string . '</p>
 <p>Output: ' . str_reduce_duplicates($string) . '</p>';
 
 // OUR RESULTING FUNCTION
@@ -45,7 +44,7 @@ function str_reduce_duplicates($string)
         } else {
             // register duplicates of previous character
             if ($c > 1) {
-                $r_final .= $lastLetter.$c;
+                $r_final .= $lastLetter . $c;
                 $c = 1; // reset counter
             }
 
@@ -63,9 +62,8 @@ function str_reduce_duplicates($string)
 
     // repeater on last char - it was not displayed above
     if ($c > 1) {
-        print '(' . $c . 'x)' . $lastLetter . '<br>';
         $r_final .= $c;
     }
-    
+
     return $r_final;
 }

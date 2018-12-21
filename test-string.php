@@ -9,15 +9,11 @@ Primer: čokooolada naj spremeni v čoko3lada.</pre>';
 
 
 $strings_arr = array(
-    // https://stackoverflow.com/questions/38143475/string-compression-in-php
-    # 'aaaabbaaaababbbcccccccccccc',  // -> 424ba312, a4b2a4b1a1b3c12
-
     'čokooolada', // task
     // additional tests
     'ččokooolada', // check process for start repeater
     'ččokoooladaaa', // check process for end repeater
     'ččokooolada doobrraaa', // check process for multiple words
-
     'veryy fine chhocoladeee by Lindt', // task
     'how will this turn out Ä Ö Ü ÄÄÖÜ ÄÖÖÜ ÄÖÜÜ? ? ?? ! !! . ..'
 );
