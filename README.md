@@ -13,13 +13,6 @@ Runs a test checking for value "1" in each row of matrix. If "1" is found, repla
 
 ### Task 2: string manipulation
 - test-string.php ... 3 different functions used for solving task 2. One operative and 2 found online, but not adequate for multibyte characters i.e. č, š, ... 
-Option for quick input of new strings to be checked in 
-$strings_arr (
-    'čokooolada', // task
-    // additional tests
-    'ččokooolada', // check process for start repeater
-    'ččokoooladaaa', // check process for end repeater
-    'ččokooolada doobrraaa', // multiple words
-) 
+Runs each function for each string in $strings_arr and displays result
 - test-string-min.php ... final result for task 2
 
